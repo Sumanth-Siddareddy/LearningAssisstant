@@ -29,6 +29,8 @@ It uses this information to generate a report using the **Mistral model via Olla
 3. Flexible to support diagrams and resources if included
 4. Modular and easy to extend to support visual/audio formats
 
+## Workflow of the AI Learning Assitant
+![WorkFlow](Learning_Assitant.png)
 ## Installation Guide
 
 ### Prerequisites

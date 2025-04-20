@@ -1,0 +1,7 @@
+pydantic==1.10.7
+requests==2.28.2
+ollama==0.0.1
+llama-index==0.5.6
+llama-index-llms-ollama==0.1.0
+llama-index-readers-file==0.1.0
+llama-index-vector-stores-faiss==0.1.0

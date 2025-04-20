@@ -1,0 +1,19 @@
+# .gitignore
+
+# Virtual environment
+venv/
+env/
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Python compiled files
+__pycache__/
+*.pyc
+app/__pycache__/
+
+# IDE/editor config
+.vscode/
+.idea/
+*.log

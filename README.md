@@ -16,6 +16,19 @@ It uses this information to generate a report using the **Mistral model via Olla
 - Generates structured educational reports
 - Saves output to a text file with a dynamic filename
 
+## Research Methodology
+- The system uses:
+1. Ollama's Mistral model for topic comprehension and content generation
+2. Structured prompt engineering to instruct the model to follow educational guidelines
+3. Basic topic filtering to restrict inappropriate queries
+
+## Report Generation & Modification
+- Reports are:
+1. Queried from LLM using structured prompts
+2. Parsed and saved in topic-specific .txt files
+3. Flexible to support diagrams and resources if included
+4. Modular and easy to extend to support visual/audio formats
+
 ## Installation Guide
 
 ### Prerequisites
@@ -96,4 +109,14 @@ Ensure you have the following installed:
     sumanth_object_oriented_programming_in_java_report.txt
     ```
 
+## Limitations
+- Limited to text-based output
+- Local-only inference using Ollama; not optimized for production scalability
+- Lacks advanced GUI for broader usability
 
+## Future Work
+- Add web frontend (React/Streamlit)
+- Implement user login and session tracking
+- Enable PDF/Markdown export of reports
+- Integrate RAG with web search or academic papers
+- Dockerize for smoother deployment
